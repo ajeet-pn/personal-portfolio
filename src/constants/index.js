@@ -6,7 +6,18 @@ import project1 from '../assets/project1.png'
 import project2 from '../assets/project2.png'
 import project3 from '../assets/project3.png'
 import project4 from '../assets/project4.png'
+import javascript from '../assets/tech/javascript.png';
+import html from '../assets/tech/html.png';
+import css from '../assets/tech/css.png';
+import git from '../assets/tech/git.png';
+import reactjs from '../assets/tech/reactjs.png';
+import redux from '../assets/tech/redux.png';
+import tailwind from '../assets/tech/tailwind.png';
+import typeScript from '../assets/tech/typeScript.png';
+import threejs from '../assets/tech/threejs.svg';
+import nodejs from '../assets/tech/nodejs.png';
  
+
 export const navLinks = [
   {
     id: "about",
@@ -20,6 +31,56 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+];
+export const technologies = [
+  {
+    name: 'HTML 5',
+    icon: html,
+  },
+  {
+    name: 'CSS 3',
+    icon: css,
+  },
+  {
+    name: 'JavaScript',
+    icon: javascript,
+  },
+  
+  {
+    name: 'React JS',
+    icon: reactjs,
+  },
+  {
+    name: 'Redux Toolkit',
+    icon: redux,
+  },
+  {
+    name: 'Tailwind Css',
+    icon: tailwind,
+  },
+  
+  {
+    name: 'TypeScripr',
+    icon: typeScript,
+  },
+  {
+    name: 'Three Js',
+    icon: threejs,
+  },
+  {
+    name: 'Node Js',
+    icon: nodejs,
+  },
+  {
+    name: 'Email Js',
+    icon: nodejs,
+  },
+  
+  {
+    name: 'git',
+    icon: git,
+  },
+ 
 ];
 
 

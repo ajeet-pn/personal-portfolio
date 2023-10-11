@@ -6,6 +6,8 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
 import ServiceCard from "../components/serviceCard";
 import { services } from "../constants";
+import  BallCanvas  from '../canvas/ball';
+import { technologies } from '../constants';
 
 const About = () => {
      return (
@@ -22,9 +24,14 @@ const About = () => {
          </motion.p>
    
          <div className='mt-20 flex flex-wrap gap-10 justify-items-center items-center'>
-           {services.map((service, index) => (
+           {/*{services.map((service, index) => (
              <ServiceCard key={service.title} index={index} {...service} />
-           ))}
+           ))}*/}
+         {technologies?.map((technology, index) => (
+        <div key={index} className="w-28 h-28">
+          <BallCanvas icon={technology.icon} />
+        </div>
+      ))}
          </div>
        </>
      );

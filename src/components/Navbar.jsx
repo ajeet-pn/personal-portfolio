@@ -17,8 +17,9 @@ const Navbar = () => {
                     <Link to='/' className='flex items-center gap-2' onClick={() => {setActive("");
                window.scrollTo(0,0);}}>
                      <p className="text-stone-950 font-700 cursor-pointer flex flex-col ">
-                         <span className='text-[#1A488E] font-black'>`${'{<🅰🅹🅴🅴🆃 🅿🅰🅻>}'}`&nbsp; </span>
-                         <span className='sm:block hidden'>| React Developer</span>
+                         <span className='text-[#1A488E] font-black text-2xl'>`${'{?🅰:🅿}'}`&nbsp; </span>
+                         
+                         <span className='sm:block hidden first-letter:text-[#1A488E] first-letter:text-2xl first-letter:font-bold'> | React Developer</span>
                      </p>
                     </Link>
                     <ul className="list-none hidden sm:flex flex-row gap-10">
