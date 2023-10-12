@@ -13,7 +13,7 @@ import git from '../assets/tech/git.png';
 import reactjs from '../assets/tech/reactjs.png';
 import redux from '../assets/tech/redux.png';
 import tailwind from '../assets/tech/tailwind.png';
-import typeScript from '../assets/tech/typeScript.png';
+import typeScript from '../assets/tech/typescript.png';
 import threejs from '../assets/tech/threejs.svg';
 import nodejs from '../assets/tech/nodejs.png';
  
