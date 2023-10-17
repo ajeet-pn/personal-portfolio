@@ -28,11 +28,11 @@ const Navbar = () => {
             <a href={`#${link.id}`}>{link.title}</a>
           </li>
         ))}
-        <a href="#contact">
-        <button
+        <a href="mailto:ajeetpn88gmail.com">
+        <span
               type='submit'
-              className=' btn py-3 px-8 rounded-xl outline-none w-fit text-white font-bold drop-shadow-lg'
-            >Hire Me</button>
+              className=' py-3 px-8 rounded-xl outline-none w-fit text-[#1A488E] font-bold drop-shadow-lg'
+            >ajeetpn88@gmail.com</span>
         </a>
       </ul>
       <div className='sm:hidden flex flex-1 justify-end items-center'>

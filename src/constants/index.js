@@ -2,10 +2,7 @@ import web from '../assets/expirence.png';
 import backend from '../assets/backend.png'
 import mobile from '../assets/mobile.png'
 import creator from '../assets/creator.png'
-import project1 from '../assets/project1.png'
-import project2 from '../assets/project2.png'
 import project3 from '../assets/project3.png'
-import project4 from '../assets/project4.png'
 import javascript from '../assets/tech/javascript.png';
 import html from '../assets/tech/html.png';
 import css from '../assets/tech/css.png';
@@ -16,6 +13,7 @@ import tailwind from '../assets/tech/tailwind.png';
 import typeScript from '../assets/tech/typescript.png';
 import threejs from '../assets/tech/threejs.svg';
 import nodejs from '../assets/tech/nodejs.png';
+import emailjs from '../assets/tech/emailjs.png';
  
 
 export const navLinks = [
@@ -73,7 +71,7 @@ export const technologies = [
   },
   {
     name: 'Email Js',
-    icon: nodejs,
+    icon: emailjs,
   },
   
   {
@@ -180,7 +178,7 @@ export const experiences = [
     company_name: "Dotsquares Technology",
     icon:web,
     iconBg: "#E6DEDD",
-    date: "Oct 2022 - Present",
+    date: "Oct 2022 - Oct 14/2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Meeting with the development team to discuss user interface ideas and applications.",
