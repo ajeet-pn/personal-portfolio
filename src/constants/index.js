@@ -1,4 +1,5 @@
 import web from '../assets/expirence.png';
+import web1 from '../assets/logo1.png';
 import backend from '../assets/backend.png'
 import mobile from '../assets/mobile.png'
 import creator from '../assets/creator.png'
@@ -85,39 +86,39 @@ export const technologies = [
 export const services = [
     {
       title: "HTML5",
-      icon: web,
+      icon: html,
     },
     {
       title: "CSS3",
-      icon: backend,
+      icon: css,
     },
     {
      title: "JavaScript",
-     icon: mobile,
+     icon: javascript,
    },
     {
       title: "React Js",
-      icon: creator,
+      icon: reactjs,
     },
     {
       title: "Redux",
-      icon: creator,
+      icon: redux,
     },
     {
       title: "TypeScripr",
-      icon: creator,
+      icon: typeScript,
     },
     {
       title: "EmailJs",
-      icon: creator,
+      icon: emailjs,
     },
     {
-      title: "Router",
-      icon: creator,
+      title: "Github",
+      icon: git,
     },
     {
-      title: "Axios",
-      icon: creator,
+      title: "Node js",
+      icon: nodejs,
     },
   ];
 
@@ -149,28 +150,55 @@ export const services = [
         },
       ],
     },
-    // {
-    //   title: "Leader Board",
-    //   image: project4,
-    //   live: "https://soesandarwin2201.github.io/LeaderBoard-project/",
-    //   source: "https://github.com/soesandarwin2201/LeaderBoard-project",
-    //   description:
-    //     "Leaderboard is an app for game users to keep track of their team score and their own score. Users can add their name and score.",
-    //   tags: [
-    //     {
-    //       name: "javascript",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "group project",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    // },
+    {
+      title: "Sport Betting Application",
+      image: project3,
+      live: "https://soesandarwin2201.github.io/LeaderBoard-project/",
+      source: "https://github.com/soesandarwin2201/LeaderBoard-project",
+      description:
+        "Leaderboard is an app for game users to keep track of their team score and their own score. Users can add their name and score.",
+      tags: [
+        {
+          name: "React Js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Socket",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Ant Theme",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Admin Lte",
+          color: "pink-text-gradient",
+        },
+      ],
+    },
+
+    {
+      title: "School Managment System",
+      image: project3,
+      live: "https://soesandarwin2201.github.io/LeaderBoard-project/",
+      source: "https://github.com/soesandarwin2201/LeaderBoard-project",
+      description:
+        "Leaderboard is an app for game users to keep track of their team score and their own score. Users can add their name and score.",
+      tags: [
+        {
+          name: "React Js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Socket",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Ant Theme",
+          color: "pink-text-gradient",
+        },
+      ],
+    },
 ]
 export const experiences = [
   {
@@ -179,6 +207,21 @@ export const experiences = [
     icon:web,
     iconBg: "#E6DEDD",
     date: "Oct 2022 - Oct 14/2023",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Meeting with the development team to discuss user interface ideas and applications.",
+      "Developing and implementing highly responsive user interface components using react concepts.",
+      "Monitoring and improving front-end performance. Troubleshooting interface software and debugging application codes.",
+      "Writing application interface codes using JavaScript and typeScript following  react js workflows",
+    ],
+  },
+
+  {
+    title: "React js Developer",
+    company_name: "Vigorous NextGen",
+    icon: web1,
+    iconBg: "#00000",
+    date: "Oct 2023 - Parsent",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Meeting with the development team to discuss user interface ideas and applications.",
