@@ -97,7 +97,7 @@ export const services = [
      icon: javascript,
    },
     {
-      title: "React Js",
+      title: "ReactJs",
       icon: reactjs,
     },
     {
@@ -105,7 +105,7 @@ export const services = [
       icon: redux,
     },
     {
-      title: "TypeScripr",
+      title: "TypeScript",
       icon: typeScript,
     },
     {
@@ -117,7 +117,7 @@ export const services = [
       icon: git,
     },
     {
-      title: "Node js",
+      title: "NodeJs",
       icon: nodejs,
     },
   ];

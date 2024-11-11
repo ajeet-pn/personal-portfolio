@@ -16,7 +16,7 @@ const ServiceCard = ({ index, title, icon }) => (
              scale: 1,
              speed: 450,
            }}
-           className='card rounded-[50%] py-5 px-6 min-h-[100px] flex justify-evenly items-center flex-col'
+           className='card1 rounded-[50%] py-5 px-8 min-h-[100px] flex justify-evenly items-center flex-col'
          >
            <img
              src={icon}
