@@ -17,7 +17,7 @@ const Home = () => {
           <h4 className={`${styles.sectionSubText} font-bold capitalize`}>Hii, I'm</h4>
           <h1 className={`${styles.heroHeadText} heading`}>Ajeet Pal</h1>
           <p className={`${styles.heroSubText} mt-2 text-stone-950 capitalize`}>Coding your dreams into reality - I specialize in building impactful websites that propel <span className='text'>your business forward.</span> </p>
-          <ul className="list-none  sm:flex flex-row gap-5 pt-4">
+          <ul className="list-none flex flex-row gap-5 pt-4">
             <li>
               <a href='https://www.linkdin.com/in/ajeet-pal-103215103' className='text-xl mt-1'><FaLinkedin size={30} /></a>
             </li>
