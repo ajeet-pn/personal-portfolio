@@ -211,23 +211,20 @@ export const experiences = [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Meeting with the development team to discuss user interface ideas and applications.",
       "Developing and implementing highly responsive user interface components using react concepts.",
-      "Monitoring and improving front-end performance. Troubleshooting interface software and debugging application codes.",
-      "Writing application interface codes using JavaScript and typeScript following  react js workflows",
-    ],
+         ],
   },
 
   {
-    title: "React js Developer",
+    title: "Software Developer",
     company_name: "Vigorous NextGen",
     icon: web1,
-    iconBg: "#00000",
+    iconBg: "#E6DEDD",
     date: "Oct 2023 - Parsent",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Meeting with the development team to discuss user interface ideas and applications.",
       "Developing and implementing highly responsive user interface components using react concepts.",
-      "Monitoring and improving front-end performance. Troubleshooting interface software and debugging application codes.",
-      "Writing application interface codes using JavaScript and typeScript following  react js workflows",
+      
     ],
   },
 ];

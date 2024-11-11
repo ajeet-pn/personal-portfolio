@@ -13,8 +13,8 @@ const Home = () => {
   return (
     <section className={`relative w-full mx-auto`}>
       <div className='w-11/12  lg:pt-0  mx-auto md:grid md:grid-cols-2 lg:w-10/12 z-0 flex items-center flex-col-reverse'>
-        <div className='flex flex-col justify-center md:mt-0 mt-5'>
-          <h4 className={`${styles.sectionSubText}`}>Hii, I'm</h4>
+        <div className='flex flex-col justify-center md:mt-0 mt-6'>
+          <h4 className={`${styles.sectionSubText} font-bold capitalize`}>Hii, I'm</h4>
           <h1 className={`${styles.heroHeadText} heading`}>Ajeet Pal</h1>
           <p className={`${styles.heroSubText} mt-2 text-stone-950 capitalize`}>Coding your dreams into reality - I specialize in building impactful websites that propel <span className='text'>your business forward.</span> </p>
           <ul className="list-none hidden sm:flex flex-row gap-5 pt-4">
