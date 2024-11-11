@@ -5,7 +5,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 import '../index.css'
 
 const ServiceCard = ({ index, title, icon }) => (
-     <Tilt className='xs:w-[130px] w-full'>
+     <Tilt className='xs:w-[130px] w-24'>
        <motion.div
          variants={fadeIn("right", "spring", index * 0.5, 0.75)}
          className='w-full p-[1px] rounded-[20px]'
@@ -16,12 +16,12 @@ const ServiceCard = ({ index, title, icon }) => (
              scale: 1,
              speed: 450,
            }}
-           className='card rounded-[50%] py-5 px-12 min-h-[100px] flex justify-evenly items-center flex-col'
+           className='card rounded-[50%] py-5 px-6 min-h-[100px] flex justify-evenly items-center flex-col'
          >
            <img
              src={icon}
              alt='web-development'
-             className='w-8 h-8 object-contain'
+             className='xs:w-8 xs:h-8 w-20 object-contain'
            />
    
            <h3 className='text-[10px] font-bold text-center pt-4'>

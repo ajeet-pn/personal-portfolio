@@ -24,14 +24,16 @@ const About = () => {
       </motion.p>
 
       <div className='flex mt-3 flex-wrap gap-3 justify-items-center items-center'>
-        {/* {services.map((service, index) => (
+        {services.map((service, index) => (
+          // <div key={index} className="flex gap-3 w-24  h-24">
           <ServiceCard key={service.title} index={index} {...service} />
-        ))} */}
-        {technologies?.map((technology, index) => (
+          // </div>
+        ))}
+        {/* {technologies?.map((technology, index) => (
         <div key={index} className="w-24 h-24">
           <BallCanvas icon={technology?.icon} />
         </div>
-      ))}
+      ))} */}
       </div>
     </>
   );
