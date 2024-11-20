@@ -23,11 +23,9 @@ const About = () => {
         I am a skilled software developer with 2+ years experience in  JavaScript, and Yext, and expertise in frameworks and library like React, Redux, , Router ,  and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
-      <div className='flex mt-3 flex-wrap gap-3 justify-items-center items-center'>
+      <div className='flex mt-3 flex-wrap justify-items-start items-center'>
         {services.map((service, index) => (
-          // <div key={index} className="flex gap-3 w-24  h-24">
           <ServiceCard key={service.title} index={index} {...service} />
-          // </div>
         ))}
         {/* {technologies?.map((technology, index) => (
         <div key={index} className="w-24 h-24">
