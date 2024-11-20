@@ -16,7 +16,7 @@ const Home = () => {
         <div className='flex flex-col justify-center md:mt-0 mt-6'>
           <h4 className={`${styles.sectionSubText} font-bold capitalize`}>Hii, I'm</h4>
           <h1 className={`${styles.heroHeadText} heading`}>Ajeet Pal</h1>
-          <p className={`${styles.heroSubText} mt-2 text-stone-950 capitalize`}>Coding your dreams into reality - I specialize in building impactful websites that propel <span className='text'>your business forward.</span> </p>
+          <p className={`${styles.heroSubText} mt-1 text-stone-950 capitalize`}>Coding your dreams into reality - I specialize in building impactful websites that propel <span className='text'>your business forward.</span> </p>
           <ul className="list-none flex flex-row md:gap-5 gap-2 pt-4">
             <li>
               <a href='https://www.linkdin.com/in/ajeet-pal-103215103' className='text-xl mt-1'><FaLinkedin size={30} /></a>
@@ -40,8 +40,8 @@ const Home = () => {
         <div className='lg:h-[420px] h-[320px] w-full flex items-center md:mt-0 mt-5 justify-center '>
 
           {/* <House /> */}
-          <ComputersCanvas/>
-          {/* <img src={photo} alt='profile-photo' width={350} height={250} /> */}
+          {/* <ComputersCanvas/> */}
+          <img src={photo} alt='profile-photo' width={350} height={250} />
         </div>
       </div>
       {/* motion box */}
