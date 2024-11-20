@@ -3,7 +3,9 @@ import web1 from '../assets/logo1.png';
 import backend from '../assets/backend.png'
 import mobile from '../assets/mobile.png'
 import creator from '../assets/creator.png'
-import project3 from '../assets/project3.png'
+import sikander777 from '../assets/sikander777.png'
+import ca_singhal from '../assets/ca_singhal.png'
+import mgmtimber from '../assets/mgmtimber.png'
 import javascript from '../assets/tech/javascript.png';
 import html from '../assets/tech/html.png';
 import css from '../assets/tech/css.png';
@@ -125,8 +127,8 @@ export const services = [
  export const projects = [
     {
       title: "Locator, Location, Directory Manager",
-      image: project3,
-      live: "",
+      image: mgmtimber,
+      live: "https://www.mgmtimber.co.uk/branch-locator/",
       source: "/",
       name: "Portfolio Landing Page",
       description:
@@ -152,9 +154,9 @@ export const services = [
     },
     {
       title: "Sport Betting Application",
-      image: project3,
-      live: "https://soesandarwin2201.github.io/LeaderBoard-project/",
-      source: "https://github.com/soesandarwin2201/LeaderBoard-project",
+      image: sikander777,
+      live: "https://sikander777.com/",
+      source: "/",
       description:
         "Leaderboard is an app for game users to keep track of their team score and their own score. Users can add their name and score.",
       tags: [
@@ -178,8 +180,8 @@ export const services = [
     },
 
     {
-      title: "School Managment System",
-      image: project3,
+      title: "CAEP",
+      image: ca_singhal,
       live: "https://soesandarwin2201.github.io/LeaderBoard-project/",
       source: "https://github.com/soesandarwin2201/LeaderBoard-project",
       description:
