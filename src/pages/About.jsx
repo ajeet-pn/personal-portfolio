@@ -12,10 +12,10 @@ import { technologies } from '../constants';
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()} >
+      < >
         <p className={`${styles.sectionHeadText} uppercase`}>Introduction</p>
         <h2 className={styles.sectionSubText}>Overview.</h2>
-      </motion.div>
+      </>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-slate-00 text-[17px] max-w-3xl leading-[30px]'
