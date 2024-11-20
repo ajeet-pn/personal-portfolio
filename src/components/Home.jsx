@@ -40,8 +40,8 @@ const Home = () => {
         <div className='lg:h-[420px] h-[320px] w-full flex items-center md:mt-0 mt-5 justify-center '>
 
           {/* <House /> */}
-          {/* <ComputersCanvas/> */}
-          <img src={photo} alt='profile-photo' width={350} height={250} />
+          <ComputersCanvas/>
+          {/* <img src={photo} alt='profile-photo' width={350} height={250} /> */}
         </div>
       </div>
       {/* motion box */}
