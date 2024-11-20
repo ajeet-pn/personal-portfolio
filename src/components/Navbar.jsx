@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
 
-    <nav className={` w-full flex border-b items-center py-1 shadow-xl md:px-1 px-3  top-0 z-20 `}>
+    <nav className={` w-full flex border-b items-center py-1 sticky bg-white shadow-xl md:px-1 px-3  top-0 z-20 `}>
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link to='/' className='flex items-center gap-2' onClick={() => {
           setActive("");

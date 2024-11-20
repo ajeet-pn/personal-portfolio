@@ -17,7 +17,10 @@ import typeScript from '../assets/tech/typescript.png';
 import threejs from '../assets/tech/threejs.svg';
 import nodejs from '../assets/tech/nodejs.png';
 import emailjs from '../assets/tech/emailjs.png';
- 
+import OIP from '../assets/tech/OIPP.jpeg';
+import Mongodb from '../assets/mongodb.jpeg';
+import antd from '../assets/tech/antd.jpeg';
+
 
 export const navLinks = [
   {
@@ -81,6 +84,7 @@ export const technologies = [
     name: 'git',
     icon: git,
   },
+
  
 ];
 
@@ -121,6 +125,18 @@ export const services = [
     {
       title: "NodeJs",
       icon: nodejs,
+    },
+    {
+      title: "Socket",
+      icon: OIP,
+    },
+    {
+      title: "Mongodb",
+      icon: Mongodb,
+    },
+    {
+      title: 'Ant Design',
+      icon: antd,
     },
   ];
 

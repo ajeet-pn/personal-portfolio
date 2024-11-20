@@ -19,7 +19,7 @@ const Home = () => {
           <p className={`${styles.heroSubText} mt-1 text-stone-950 capitalize`}>Coding your dreams into reality - I specialize in building impactful websites that propel <span className='text'>your business forward.</span> </p>
           <ul className="list-none flex flex-row md:gap-5 gap-2 pt-4">
             <li>
-              <a href='https://www.linkdin.com/in/ajeet-pal-103215103' className='text-xl mt-1'><FaLinkedin size={30} /></a>
+              <a href='https://www.linkedin.com/in/ajeet-pal-103215103/' className='text-xl mt-1'><FaLinkedin size={30} /></a>
             </li>
             <li>
               <a href='https://github.com/ajeet-pn' className='text-xl mt-1'><FaGithub size={30} /></a>

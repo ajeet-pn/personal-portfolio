@@ -14,7 +14,7 @@ const About = () => {
     <>
       < >
         <p className={`${styles.sectionHeadText} uppercase`}>Introduction</p>
-        <h2 className={styles.sectionSubText}>Overview.</h2>
+        <h2 className={`${styles.sectionSubText} heading font-bold`} >Overview.</h2>
       </>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
@@ -23,7 +23,7 @@ const About = () => {
         I am a skilled software developer with 2+ years experience in  JavaScript, and Yext, and expertise in frameworks and library like React, Redux, , Router ,  and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
-      <div className='flex mt-3 flex-wrap justify-start items-center'>
+      <div className='flex mt-3 flex-wrap justify-center md:justify-start items-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
