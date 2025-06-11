@@ -14,7 +14,7 @@ const Home = () => {
     <section className={`relative w-full mx-auto`}>
       <div className='w-11/12  lg:pt-0  mx-auto md:grid md:grid-cols-2 lg:w-10/12 z-0 flex items-center flex-col-reverse'>
         <div className='flex flex-col justify-center md:mt-5 mt-6'>
-          <h4 className={`${styles.sectionSubText} font-bold capitalize`}>Hii, I'm</h4>
+          <h4 className={`${styles.sectionSubText} font-bold capitalize flex`}>Hii, <p className='text-[#fc4c86]'>I</p><p className='lowercase'>'m</p></h4>
           <h1 className={`${styles.heroHeadText} heading`}>Ajeet Pal</h1>
           <p className={`${styles.heroSubText} mt-1 text-stone-950 capitalize`}>Coding your dreams into reality - I specialize in building impactful websites that propel <span className='text'>your business forward.</span></p>
           <ul className="list-none flex flex-row md:gap-5 gap-2 pt-4">

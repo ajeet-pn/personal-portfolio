@@ -19,7 +19,7 @@ const Navbar = () => {
           window.scrollTo(0, 0);
         }}>
           <p className="text-stone-950 font-700 cursor-pointer flex flex-col ">
-            <span className='text-[#1A488E] font-black text-2xl'>{`${'{..?🅰:🅿}'}`}&nbsp; </span>
+            <span className='text-[#1A488E] font-black text-xl'>{`${'{?🅰:🅿}'}`}&nbsp; </span>
 
             <span className='sm:block hidden first-letter:text-[#1A488E] first-letter:text-2xl first-letter:font-bold'> | Javascript & Python Developer</span>
           </p>
@@ -41,7 +41,7 @@ const Navbar = () => {
           <img
             src={toggle ? close : menu}
             alt='menu'
-            className='w-[28px] h-[28px] object-contain'
+            className='w-[28px] h-[18px] object-contain'
             onClick={() => setToggle(!toggle)}
           />
 
@@ -60,7 +60,7 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  <a href={`${nav.id}`}>{nav.title}</a>
+                  <a href={`/`}>{nav.title}</a>
                 </li>
               ))}
             </ul>
