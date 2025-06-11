@@ -20,8 +20,8 @@ const Navbar = () => {
         }}>
           <p className="text-stone-950 font-700 cursor-pointer flex flex-col ">
             <span className='text-sm font-bold text-[#1A488E]'>
-  <span className='text-lg font-bolder'>{'{?'}</span> <span style={{ backgroundColor: 'rgb(252, 76, 136)', color: 'white', borderRadius: '4px', padding: '0 5px' }}>A</span> <span className='text-lg font-bolder'>{': '}</span>
-   <span style={{ backgroundColor: 'rgb(84, 158, 240)', color: 'white', borderRadius: '4px', padding: '0 5px' }}> P</span> <span className='text-lg font-bolder'>{'}'}</span>
+  <span className='text-base font-black'>{'{?'}</span> <span style={{ backgroundColor: 'rgb(252, 76, 136)', color: 'white', borderRadius: '4px', padding: '0 5px' }}>A</span> <span className='text-base font-black'>{': '}</span>
+   <span style={{ backgroundColor: '#549ef0', color: 'white', borderRadius: '4px', padding: '0 5px' }}> P</span> <span className='text-base font-black'>{'}'}</span>
 </span>
 
             {/* <span className='text-[#1A488E] font-black text-xl'>{`${'{?🅰:🅿}'}`}&nbsp; </span> */}
