@@ -35,6 +35,10 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "games",
+    title: "Games",
+  },
 ];
 export const technologies = [
   {
@@ -198,8 +202,8 @@ export const services = [
     {
       title: "CAEP",
       image: ca_singhal,
-      live: "https://soesandarwin2201.github.io/LeaderBoard-project/",
-      source: "https://github.com/soesandarwin2201/LeaderBoard-project",
+      live: "/",
+      source: "/",
       description:
         "Leaderboard is an app for game users to keep track of their team score and their own score. Users can add their name and score.",
       tags: [

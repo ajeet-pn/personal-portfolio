@@ -1,20 +1,19 @@
-import { BrowserRouter } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Experience from "./pages/Experience";
-import Contact from "./pages/Contact";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import Plinko from "./pages/Plinko";
+import Dashboard from "./pages/dashboard/Dashboard";
+import Mines from "./pages/games/Mines";
 
 const App = () => {
   return ( 
     <BrowserRouter>
-    <Navbar />
-    <Home />
-    <About />
-    <Projects />
-    <Experience />
-    <Contact />
+    
+
+    <Routes>
+      <Route path="/" element={<Dashboard />} />
+      <Route path="/plinko" element={<Plinko />} />
+      <Route path="/mines" element={<Mines />} />
+    </Routes>
     </BrowserRouter>
    );
 }
