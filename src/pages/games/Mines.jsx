@@ -2,13 +2,13 @@
 
 const Mines = () => {
   return (
-    <>
-<iframe src='https://silver-gingersnap-b54c3e.netlify.app/' className='w-full h-[100vh]' frameborder="0"
+    <div>
+<iframe src='https://mines-tau.vercel.app/dashboard' className='w-full h-[100vh]' frameborder="0"
     allowfullscreen
       sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
     />
 
-  </>
+  </div>
   );
   
 };
