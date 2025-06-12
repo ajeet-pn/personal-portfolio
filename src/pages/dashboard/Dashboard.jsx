@@ -16,7 +16,7 @@ const Dashboard = () => {
     <About />
     <Projects />
     <Experience />
-    <Games/>
+    {/* <Games/> */}
     <Contact />
   
   </>
